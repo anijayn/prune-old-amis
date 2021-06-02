@@ -1,0 +1,10 @@
+platform: linux
+
+image-resource:
+  type: registry-image
+  source:
+    repository: amazon/aws-cli
+    tag: 2.0.24
+
+run:
+  path: ./delete-old-amis.sh
