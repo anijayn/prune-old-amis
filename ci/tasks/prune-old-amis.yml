@@ -7,4 +7,4 @@ image_resource:
     tag: 2.0.24
 
 run:
-  path: ci/scripts/prune-old-amis.sh
+  path: code/ci/scripts/prune-old-amis.sh
